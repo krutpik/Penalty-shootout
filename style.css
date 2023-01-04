@@ -124,3 +124,18 @@ body {
 
 
 }
+
+.button_music {
+    position: fixed;
+    width: 116px;
+    height: 71px;
+    margin-top: 730px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'FontName';
+
+
+
+
+
+}

@@ -1,0 +1,126 @@
+@font-face {
+
+	font-family: 'FontName'; 
+
+	src: url(Qatar2022Arabic-Heavy.ttf); 
+
+}
+
+html {
+    top: -8px;
+    left: -10px;
+    position: fixed;
+
+
+}
+
+body {
+    overflow: hidden;
+
+}
+
+.field {
+    width: 1925px;
+    height: 1080px;
+    position: fixed;
+
+
+}
+
+.penalty_shootout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 420px;
+    height: 165px;
+    margin-top: 45px;
+    margin-left: 36px;
+    background: #801515;
+    display: flex;
+    flex-wrap: wrap;  
+
+
+}
+
+.circle {
+	width: 35px;
+    height: 35px;
+    background: #e8eae8;
+    transform: rotate(-45deg);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    margin-left: 27px;
+}
+
+.button {
+    width: 100px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: fixed;
+    font-size: 30px;
+
+}
+
+.gates  {
+    position: fixed;
+    width: 776px;
+    height: 355px;
+    left: 0;
+    right: 0;
+    margin-left: 594px;
+    margin-top: 460px;
+
+}
+
+.text_1 {
+    font-size: 52px;
+    position: fixed;
+    color: white;
+    margin-left: 470px;
+    margin-top: 50px;
+    font-family: 'FontName';
+
+}
+
+.text_2 {
+    font-size: 52px;
+    position: fixed;
+    color: white;
+    margin-left: 470px;
+    margin-top: 133px;
+    font-family: 'FontName';
+  
+}
+
+.answer {
+    font-size: 51px;
+    color: white;
+    position: fixed;
+    margin-left: 49%;
+    margin-top: 15%;
+    font-family: 'FontName';
+
+}
+
+.shock {
+    font-size: 40px;
+    position: fixed;
+    color: white;
+    margin-right: 35px;
+    margin-top: 750px;
+    right: 0;
+    font-family: 'FontName';
+}
+
+.world_cup {
+    position: fixed;
+    right: 0;
+    width: 179px;
+    height: 209px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+
+}

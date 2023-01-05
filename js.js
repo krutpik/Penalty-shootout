@@ -128,14 +128,13 @@ function game_over() {
 }
 
 $('.button_music')[0].addEventListener('click', function() {
-    
-    console.log(clicks)
     audio.pause()
-    soundClick()
-    
+    soundClick()   
 
 })
 
+console.log("Игра разработана Олейниковым Александром (Ник - Krutpik)")
+console.log("Приятной игры!")
 penalty()
 soundClick()
 

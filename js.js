@@ -18,7 +18,6 @@ function penalty() {
     for (i = 0; i < 2; i++) {
         let button = $('<button class="button">Удар</button>')
         let random = Math.random() * (2 - 1) + 1
-        console.log(random)
         if (i > 0) {
             button.css('bottom', '0')
             
@@ -82,8 +81,6 @@ function goalkeeper(answer) {
         
         } 
     }  
-    console.log(attempt_1)
-    console.log(attempt_2)
 
     game_over()    
 

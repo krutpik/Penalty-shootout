@@ -48,7 +48,7 @@
     .circle {
         width: 35px;
         height: 35px;
-        background: #e8eae8;
+        background: #ccc;
         transform: rotate(-45deg);
         margin-top: auto;
         margin-bottom: auto;
@@ -188,7 +188,7 @@
     .circle {
         width: 25px;
         height: 25px;
-        background: #e8eae8;
+        background: #ccc;
         transform: rotate(-45deg);
         margin-top: auto;
         margin-bottom: auto;

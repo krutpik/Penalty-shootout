@@ -133,7 +133,7 @@ $('.button_music')[0].addEventListener('click', function() {
 
 })
 
-console.log("Игра разработана Олейниковым Александром (Ник - Krutpik)")
+console.log("Игра разработана Олейниковым Александром")
 console.log("Приятной игры!")
 penalty()
 soundClick()

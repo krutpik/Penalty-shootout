@@ -1,3 +1,18 @@
+var audio = new Audio();
+var clicks = 1
+
+function soundClick() { 
+    if (clicks !== 1) {
+        audio.src = 'The Official FIFA World Cup Qatar 2022™ Theme FIFA World Cup 2022 Soundtrack.mp3'; 
+        audio.autoplay = true;
+        clicks ++    
+    } else {
+        clicks = 0
+    }
+     
+    
+}
+
 function penalty() {
     $('.circle#10').css('background', '#ccc') 
     for (i = 0; i < 2; i++) {
@@ -5,11 +20,11 @@ function penalty() {
         let random = Math.random() * (2 - 1) + 1
         console.log(random)
         if (i > 0) {
-            button.css('margin-top', '270px')
+            button.css('bottom', '0')
             
         }
         if (random > 1.5) {
-            button.css('margin-left', '665px')
+            button.css('right', '0')
 
         } else {
             button.css('margin-left', '5px')
@@ -31,7 +46,7 @@ var attempt_1 = 0
 var attempt_2 = 0
 
 function goalkeeper(answer) {
-    $('button').remove()
+    $('.button').remove()
     a ++
     let random = Math.floor(Math.random() * 2);
     if (a % 2) {
@@ -115,6 +130,15 @@ function game_over() {
     penalty()
 }
 
-penalty()
+$('.button_music')[0].addEventListener('click', function() {
+    
+    console.log(clicks)
+    audio.pause()
+    soundClick()
+    
 
+})
+
+penalty()
+soundClick()
 

@@ -1,0 +1,45 @@
+@font-face {
+
+	font-family: 'FontName'; 
+
+	src: url(Qatar2022Arabic-Heavy.ttf); 
+
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        visibility: hidden;
+        overflow: hidden;   
+
+
+    }
+
+    html {
+        background-color: #ccc;
+
+
+
+    }
+
+    .orientation {
+        visibility: visible;
+        font-family: 'FontName'; 
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5%;
+        color: rgb(114, 114, 114);
+
+    }
+
+    .orientation_img {
+        visibility: visible;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+    
+    
+    }
+
+
+}

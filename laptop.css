@@ -1,0 +1,143 @@
+@font-face {
+
+	font-family: 'FontName'; 
+
+	src: url(Qatar2022Arabic-Heavy.ttf); 
+
+}
+
+@media screen and ( max-width: 1550px ) and ( max-height: 900px ) { 
+    html {
+        top: -8px;
+        left: -10px;
+        position: fixed;
+    
+    
+    }
+    
+    body {
+        overflow: hidden;
+    
+    }
+    
+    .field {
+        width: 1366px;
+        height: 768px;
+        position: fixed;
+        
+    
+    }
+    
+    .penalty_shootout {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 368px;
+        height: 120px;
+        margin-top: 45px;
+        margin-left: 36px;
+        background: #801515;
+        display: flex;
+        flex-wrap: wrap;  
+    
+    
+    }
+    
+    .circle {
+        width: 25px;
+        height: 25px;
+        background: #ccc;
+        transform: rotate(-45deg);
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 20px;
+        margin-left: 27px;
+    }
+    
+    .button {
+        width: 100px;
+        height: 80px;
+        margin-top: 5px;
+        margin-left: 5px;
+        position: absolute;
+        font-size: 30px;
+    
+    }
+    
+    .gates  {
+        position: fixed;
+        width: 550px;
+        height: 260px;
+        left: 0;
+        right: 0;
+        margin-left: 421px;
+        margin-top: 324px;
+    
+    }
+    
+    .text_1 {
+        font-size: 37px;
+        position: fixed;
+        color: white;
+        margin-left: 425px;
+        margin-top: 50px;
+        font-family: 'FontName';
+    
+    }
+    
+    .text_2 {
+        font-size: 37px;
+        position: fixed;
+        color: white;
+        margin-left: 425px;
+        margin-top: 111px;
+        font-family: 'FontName';
+      
+    }
+    
+    .answer {
+        font-size: 39px;
+        color: white;
+        position: fixed;
+        margin-left: 49%;
+        margin-top: 15%;
+        font-family: 'FontName';
+    
+    }
+    
+    .shock {
+        font-size: 30px;
+        position: fixed;
+        color: white;
+        margin-right: 25px;
+        margin-top: 530px;
+        right: 0;
+        font-family: 'FontName';
+    }
+    
+    .world_cup {
+        position: fixed;
+        right: 0;
+        width: 140px;
+        height: 160px;
+        margin-right: 20px;
+        margin-top: 20px;
+    
+    
+    }
+    
+    .button_music {
+        position: fixed;
+        width: 116px;
+        height: 71px;
+        margin-top: 500px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-family: 'FontName';
+    
+    
+    
+    }
+
+    
+}

@@ -21,7 +21,7 @@
     }
     
     .field {
-        width: 736px;
+        width: 850px;
         height: 414px;
         position: fixed;
         
@@ -67,11 +67,11 @@
     
     .gates  {
         position: fixed;
-        width: 300px;
+        width: 340px;
         height: 135px;
         left: 0;
         right: 0;
-        margin-left: 225px;
+        margin-left: 263px;
         margin-top: 177px;
         
     }

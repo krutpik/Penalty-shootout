@@ -21,7 +21,7 @@
     }
     
     .field {
-        width: 850px;
+        width: 1050px;
         height: 414px;
         position: fixed;
         
@@ -67,11 +67,11 @@
     
     .gates  {
         position: fixed;
-        width: 340px;
+        width: 425px;
         height: 135px;
         left: 0;
         right: 0;
-        margin-left: 263px;
+        margin-left: 323px;
         margin-top: 177px;
         
     }
@@ -101,8 +101,8 @@
         font-size: 27px;
         color: white;
         position: fixed;
-        margin-left: 47%;
-        margin-top: 15%;
+        margin-left: 50%;
+        margin-top: 10%;
         font-family: 'FontName';
     
     }

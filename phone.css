@@ -6,7 +6,7 @@
 
 }
 
-@media screen and ( max-width: 900px ) and ( max-height: 500px ) { 
+@media screen and ( max-width: 1100px ) and ( max-height: 500px ) { 
     html {
         top: -8px;
         left: -10px;
